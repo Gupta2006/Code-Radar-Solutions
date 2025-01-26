@@ -4,6 +4,6 @@ int main() {
     int* j=&a;
     scanf("%d",&a);
     printf("Hexadecimal: %p",j);
-    printf("Octal: %u",*j);
+    printf("Octal: %o",*j);
     return 0;
 }
