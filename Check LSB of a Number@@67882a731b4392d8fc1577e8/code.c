@@ -2,7 +2,8 @@
 int main() {
     int a;
     scanf("a",&a);
-    if(a&1){
+    lsb=a&1;
+    if(lsb){
         printf("Set");
     }
     else{
