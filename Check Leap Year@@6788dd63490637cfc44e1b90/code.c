@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if((a/400) || ((a/100) && (a/400)) ){
+    if((a%400==0) || ((a/100) && (a/400)) ){
         printf("Leap Year");
     }
     else{
