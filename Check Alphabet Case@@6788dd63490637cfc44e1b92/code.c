@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 int main() {
     char a;
     scanf("%c",&a);
@@ -9,7 +10,6 @@ int main() {
         printf("Lowercase");
     }
     else{
-        printf("Not an alphabet");
-    }
+        printf("Not an alphabet");}
     return 0;
 }
