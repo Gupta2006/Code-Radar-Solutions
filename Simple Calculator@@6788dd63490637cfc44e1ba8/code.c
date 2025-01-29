@@ -4,24 +4,24 @@ int main() {
     char c;
     scanf("%d %d %c",&a,&b,&c);
     if(c=='+'){
-        printf("%d\n",a+b);
+        printf("%d",a+b);
     }
     else if(c=='-'){
-        printf("%d\n",a-b);
+        printf("%d",a-b);
     }
     else if(c=='*'){
-        printf("%d\n",a*b);
+        printf("%d",a*b);
     }
     else if(c=='/'){
         if(b==o){
-            printf("error\n");
+            printf("error");
         }
         else{
-            printf("%f\n",(float)a/b);
+            printf("%f",(float)a/b);
         }
     }
     else{
-        printf("error\n");
+        printf("error");
     }
     return 0;
 }
