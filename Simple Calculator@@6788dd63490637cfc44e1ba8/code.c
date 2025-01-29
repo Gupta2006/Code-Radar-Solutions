@@ -17,11 +17,11 @@ int main() {
             printf("error\n");
         }
         else{
-            printf("%d\n",a/b);
+            printf("%f\n",(float)a/b);
         }
     }
     else{
-        printf("error");
+        printf("error\n");
     }
     return 0;
 }
