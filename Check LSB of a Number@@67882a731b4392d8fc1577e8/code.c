@@ -2,7 +2,8 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a&1){
+    int mcb=1<<(sizeof(int)*char_bit -1);
+    if(a&mcb){
         printf("Set");
     }
     else{
