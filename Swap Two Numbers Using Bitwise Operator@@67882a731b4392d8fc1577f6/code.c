@@ -8,5 +8,8 @@ int main() {
         a=a-b;
         printf("%d %d",a,b);
     }
+    else if(a==b){
+        printf("%d %d",a,b);
+    }
     return 0;
 }
