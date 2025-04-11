@@ -3,13 +3,13 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
-        for(int j=1;j<=n;j++){
+        for(int j=1;j<=i;j++){
             int mid=(n/2)+1;
             if(i>=mid){
-            printf("1");
+            printf("1 ");
             }
             else{
-                printf("0");
+                printf("0 ");
             }
         }
         printf("\n");
