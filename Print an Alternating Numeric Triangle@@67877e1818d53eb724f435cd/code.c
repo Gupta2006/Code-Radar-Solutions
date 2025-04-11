@@ -5,7 +5,7 @@ int main(){
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
             int mid=(n/2)+1;
-            if(i==mid){
+            if(i>=mid){
             printf("1");
             }
             else{
