@@ -6,8 +6,12 @@ int main(){
         for(int j=1;j<=n;j++){
             int mid=(n/2)+1;
             if(i==mid){
-            printf("%d ",j);
-        }}
+            printf("1");
+            }
+            else{
+                printf("0");
+            }
+        }
         printf("\n");
     }
     return 0;
